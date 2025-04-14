@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shruti's Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #E8D3F8;
+      color: #333;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.2rem 2rem;
+      background-color: #C8A2C8;
+    }
+
+    .profile-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+    }
+
+    .title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav {
+      text-align: center;
+      padding: 1rem;
+      background-color: #f2e6f7;
+    }
+
+    .nav-button {
+      background-color: white;
+      color: #5D3A9B;
+      border: 2px solid #5D3A9B;
+      border-radius: 6px;
+      padding: 0.5rem 1rem;
+      margin: 0.3rem;
+      font-size: 1rem;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s;
+      display: inline-block;
+    }
+
+    .nav-button:hover {
+      background-color: #5D3A9B;
+      color: white;
+    }
+
+    .section {
+      max-width: 700px;
+      margin: 2rem auto;
+      background-color: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #5D3A9B;
+      margin-bottom: 1rem;
+    }
+
+    p, li {
+      font-size: 1rem;
+      line-height: 1.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    .welcome {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      color: #5D3A9B;
+      font-size: 1.5rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="title">Shruti's Portfolio</div>
+    <img src="profile.jpg" alt="Profile Photo" class="profile-img">
+  </header>
+
+  <div class="welcome">👋 Welcome to my portfolio!</div>
+
+  <nav>
+    <a class="nav-button" href="#about">About</a>
+    <a class="nav-button" href="#education">Education</a>
+    <a class="nav-button" href="#certificates">Certificates</a>
+    <a class="nav-button" href="#study">Study</a>
+    <a class="nav-button" href="#languages">Languages</a>
+    <a class="nav-button" href="#values">Values</a>
+    <a class="nav-button" href="#contact">Contact</a>
+  </nav>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>Hi! I'm <strong>Shruti Rachmale</strong>, a 1st year engineering student at MIT AOE. I enjoy working on creative tech ideas and learning new skills. My dream is to grow into a confident, impactful engineer. 🌟</p>
+    <p>I'm passionate about web development, programming, and exploring how technology can solve real-world problems. In my free time, I love diving into online courses, experimenting with code, and continuously pushing my boundaries. I'm just getting started, and there's so much more to come!</p>
+  </section>
+
+  <section id="education" class="section">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech:</strong> 1st Year, MIT AOE</li>
+      <li><strong>10th:</strong> 99.20%</li>
+      <li><strong>12th:</strong> 70%</li>
+      <li><strong>NEET:</strong> 507</li>
+      <li><strong>JEE:</strong> 85%</li>
+    </ul>
+  </section>
+
+  <section id="certificates" class="section">
+    <h2>Certificates</h2>
+    <p>Coming soon: online courses, achievements, and cool things I've learned along the way! 🏆</p>
+  </section>
+
+  <section id="study" class="section">
+    <h2>Source of Study</h2>
+    <p>One of the best videos that helped me learn web development:</p>
+    <p><a href="https://www.youtube.com/watch?v=HcOc7P5BMi4" target="_blank">Watch here on YouTube</a></p>
+  </section>
+
+  <section id="languages" class="section">
+    <h2>Languages I Studied</h2>
+    <ul>
+      <li>C Programming</li>
+      <li>Python</li>
+      <li>HTML</li>
+    </ul>
+  </section>
+
+  <section id="values" class="section">
+    <h2>My Values</h2>
+    <ul>
+      <li> <strong>Curiosity:</strong> I love exploring and learning new things every day.</li>
+      <li> <strong>Growth Mindset:</strong> I believe in continuously improving myself.</li>
+      <li> <strong>Creativity:</strong> Thinking outside the box is my superpower!</li>
+      <li> <strong>Dedication:</strong> I give my best effort to everything I do.</li>
+      <li> <strong>Kindness:</strong> Helping and supporting others is important to me.</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:shrutirachmale@gmail.com">shrutirachmale@gmail.com</a></p>
+  </section>
+
+  <footer>
+    <p>Thanks for visiting! Made with 💜 by Shruti.</p>
+    <p>&copy; 2025 Shruti Rachmale</p>
+  </footer>
+
+</body>
+</html>
